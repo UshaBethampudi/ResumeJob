@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:4000";
+export const BASE_URL = "https://resume-job-backend-bb1t.onrender.com";
 
 //utils/apiPath.js
 export const API_PATHS = {
