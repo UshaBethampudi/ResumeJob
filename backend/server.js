@@ -10,7 +10,7 @@ import authRoutes from './routes/authRoutes.js';
 import resumeRoutes from './routes/resumeRoutes.js';
 import atsRoutes from './routes/atsRoutes.js';
 import jobsRoutes from './routes/jobsRoutes.js';
-import applicationRoutes from './routes/applicationRoutes.js';
+import applicationsRoutes from './routes/applicationsRoutes.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -32,7 +32,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/resume', resumeRoutes);
 app.use('/api/ats', atsRoutes);
 app.use('/api/jobs',jobsRoutes);
-app.use('/api/applications', applicationRoutes);
+app.use('/api/applications',applicationsRoutes);
 
 // Server uploads folder
 app.use(
