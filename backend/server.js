@@ -19,7 +19,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Middleware to handle CORS
-app.use(cors({ origin: 'https://resume-job-frontend.onrender.com', credentials: true }));
+app.use(cors());
 
 // Connect Database
 connectDB();
