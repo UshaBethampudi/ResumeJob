@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:4000', // Your backend API URL
+  baseURL: 'https://resume-job-backend-0yc7.onrender.com', // Your backend API URL
   withCredentials: true,
 });
 
